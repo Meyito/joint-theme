@@ -27,6 +27,17 @@ ul.topnav {
   position: fixed;
   top: 0px;
   z-index: 9999;
+  height: 60px;
+}
+
+.logoImgNav{
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 2px;
 }
 
 ul.topnav li {
@@ -162,8 +173,10 @@ ul.topnav ul.right {
 }
 
 .imgLogo{
-  max-width: 70%;
-  padding-top: 8px;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
 }
 
 .icon-title{
@@ -278,3 +291,12 @@ ul.topnav ul.right {
   background-color: black;
 }
 
+.iconSocialHome{
+  border-radius: 50%;
+  overflow: hidden;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  margin-right: 20px;
+  display: inline-block;
+}
